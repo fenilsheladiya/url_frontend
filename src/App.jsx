@@ -11,7 +11,7 @@ function App() {
 
   const handleSubmit = () => {
     axios
-      .post("url-backend-gamma.vercel.app/api/short", {
+      .post("https://url-backend-gamma.vercel.app/api/short", {
         originalUrl,
         customShortUrl,
       })
